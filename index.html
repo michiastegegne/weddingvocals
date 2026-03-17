@@ -5,137 +5,410 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="WeddingVocals - Live Wedding Band für Trauung, Apéro und Abendprogramm."
+      content="WeddingVocals ist eure Live-Hochzeitsband für Trauung, Apéro, Dinner und Party mit persönlicher Songauswahl und stilvoller Begleitung."
     />
-    <title>WeddingVocals | Wedding Band</title>
+    <meta name="theme-color" content="#1f3a34" />
+    <title>WeddingVocals | Live Hochzeitsband für euren Hochzeitstag</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;600;700&amp;family=Manrope:wght@400;500;600;700;800&amp;display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <header class="hero">
-      <nav class="nav reveal">
-        <a class="brand" href="#top">WeddingVocals</a>
-        <div class="nav-links">
-          <a href="#leistungen">Leistungen</a>
-          <a href="#team">Team</a>
-          <a href="#social">Social Media</a>
-          <a href="#kontakt">Kontakt</a>
-        </div>
-      </nav>
+    <header class="hero" id="top">
+      <div class="hero-shell">
+        <nav class="nav reveal">
+          <a class="brand" href="#top" aria-label="WeddingVocals Startseite">
+            <span>WeddingVocals</span>
+            <small>Live Hochzeitsband</small>
+          </a>
+          <div class="nav-links">
+            <a href="#leistungen">Leistungen</a>
+            <a href="#sound">Warum wir</a>
+            <a href="#ablauf">Ablauf</a>
+            <a href="#social">Hörproben</a>
+            <a href="#kontakt">Kontakt</a>
+          </div>
+        </nav>
 
-      <div class="hero-content">
-        <p class="eyebrow reveal delay-1">Live Music for Weddings</p>
-        <h1 class="reveal delay-2">Eure Love Story verdient den perfekten Sound.</h1>
-        <p class="hero-text reveal delay-3">
-          Wir sind <strong>WeddingVocals</strong>: ein eingespieltes Team aus 3
-          Musiker:innen für Trauung, Apéro und Abendprogramm.
-        </p>
-        <div class="hero-actions reveal delay-4">
-          <a class="btn btn-primary" href="#kontakt">Unverbindlich anfragen</a>
-          <a class="btn btn-secondary" href="#social">Socials ansehen</a>
+        <div class="hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow reveal delay-1">
+              Trauung, Apéro, Dinner und Party
+            </p>
+            <h1 class="reveal delay-2">
+              Live-Musik, die elegant startet und eure Feier trägt.
+            </h1>
+            <p class="hero-text reveal delay-3">
+              Wir begleiten euren Hochzeitstag als stilvolles Trio mit Vocals,
+              Keys und Gitarre. Emotional bei der Zeremonie, entspannt beim
+              Empfang und präsent, wenn am Abend die Stimmung anzieht.
+            </p>
+            <div class="hero-actions reveal delay-4">
+              <a class="btn btn-primary" href="#kontakt">Termin anfragen</a>
+              <a class="btn btn-secondary" href="#leistungen">
+                Leistungen ansehen
+              </a>
+            </div>
+            <ul class="hero-list reveal delay-4">
+              <li>Persönliche Songauswahl für Einzug, Ringtausch und Auszug</li>
+              <li>Kompakte Besetzung mit warmem, vollem Live-Sound</li>
+              <li>Professionelle Technik und klare Abstimmung mit eurer Planung</li>
+            </ul>
+          </div>
+
+          <aside class="hero-panel reveal delay-3">
+            <p class="panel-kicker">Euer Tag, musikalisch durchdacht</p>
+            <div class="panel-flow">
+              <article class="flow-item">
+                <span class="flow-time">01</span>
+                <div>
+                  <h3>Trauung</h3>
+                  <p>
+                    Wunschlieder live interpretiert für die emotionalsten
+                    Momente des Tages.
+                  </p>
+                </div>
+              </article>
+              <article class="flow-item">
+                <span class="flow-time">02</span>
+                <div>
+                  <h3>Apéro</h3>
+                  <p>
+                    Stilvolle Begleitung, die Atmosphäre schafft ohne sich
+                    aufzudrängen.
+                  </p>
+                </div>
+              </article>
+              <article class="flow-item">
+                <span class="flow-time">03</span>
+                <div>
+                  <h3>Abend</h3>
+                  <p>
+                    Dynamische Sets für Dinner, Eröffnungstanz und eine volle
+                    Tanzfläche.
+                  </p>
+                </div>
+              </article>
+            </div>
+            <p class="panel-note">
+              Ideal für freie Trauungen, kirchliche Hochzeiten, urbane Feiern
+              und elegante Destination Weddings.
+            </p>
+          </aside>
+        </div>
+
+        <div class="trust-grid reveal delay-4">
+          <article class="trust-card">
+            <span>Besetzung</span>
+            <p>Drei Musiker:innen, ein klares Klangbild, flexibel einsetzbar.</p>
+          </article>
+          <article class="trust-card">
+            <span>Planung</span>
+            <p>Direkter Austausch, schnelle Rückmeldung und sauberer Ablauf.</p>
+          </article>
+          <article class="trust-card">
+            <span>Stimmung</span>
+            <p>Von Gänsehaut-Momenten bis zur entspannten Feier am Abend.</p>
+          </article>
         </div>
       </div>
     </header>
 
     <main>
       <section class="section" id="leistungen">
-        <div class="section-head reveal">
-          <p class="eyebrow">Unsere Dienstleistung</p>
-          <h2>Musik, die euren Hochzeitstag trägt</h2>
+        <div class="section-heading reveal">
+          <p class="eyebrow">Leistungen</p>
+          <h2>Musik, die euren Hochzeitstag als roter Faden begleitet</h2>
+          <p>
+            Ihr könnt uns für einzelne Programmpunkte buchen oder als durchdachtes
+            Live-Konzept über mehrere Teile des Tages.
+          </p>
         </div>
-        <div class="cards">
-          <article class="card reveal delay-1">
-            <h3>Trauung</h3>
+
+        <div class="service-grid">
+          <article class="service-card reveal delay-1">
+            <p class="service-label">Zeremonie</p>
+            <h3>Trauung mit euren Songs</h3>
             <p>
-              Emotionale Live-Begleitung für Einzug, Ringtausch und Auszug mit
-              Songs eurer Wahl.
+              Wir begleiten Einzug, Ringtausch, Unterschrift und Auszug mit
+              genau den Liedern, die für euch zählen.
+            </p>
+            <ul>
+              <li>Live-Versionen eurer Wunschlieder</li>
+              <li>Intimer, emotionaler Sound</li>
+              <li>Abstimmung mit freien Redner:innen oder Kirche</li>
+            </ul>
+          </article>
+
+          <article class="service-card service-card-accent reveal delay-2">
+            <p class="service-label">Empfang</p>
+            <h3>Apéro mit Stil und Leichtigkeit</h3>
+            <p>
+              Dezente, moderne Live-Musik schafft Atmosphäre und lässt euren
+              Gästen Raum für Gespräche, Ankommen und Anstoßen.
+            </p>
+            <ul>
+              <li>Moderne Love Songs und soulige Klassiker</li>
+              <li>Angenehme Lautstärke für Empfang und Gespräche</li>
+              <li>Elegant für Terrasse, Garten oder Eventsaal</li>
+            </ul>
+          </article>
+
+          <article class="service-card service-card-dark reveal delay-3">
+            <p class="service-label">Abendprogramm</p>
+            <h3>Dinner, Eröffnungstanz und Feierstimmung</h3>
+            <p>
+              Wir steigern Energie und Präsenz im richtigen Moment, damit euer
+              Abend musikalisch geschlossen wirkt statt aus Einzelteilen zu
+              bestehen.
+            </p>
+            <ul>
+              <li>Stimmungsvolle Sets für Dinner und Opening</li>
+              <li>Eröffnungstanz live begleitet</li>
+              <li>Flexibel zwischen elegant und mitreißend</li>
+            </ul>
+          </article>
+
+          <article class="service-card reveal delay-4">
+            <p class="service-label">Komplettpaket</p>
+            <h3>Ein Sound für den ganzen Tag</h3>
+            <p>
+              Wenn ihr euch eine musikalisch konsistente Hochzeit wünscht,
+              begleiten wir mehrere Programmpunkte mit einem gemeinsamen Konzept.
+            </p>
+            <ul>
+              <li>Weniger Koordinationsaufwand für euch</li>
+              <li>Einheitlicher Stil vom ersten bis zum letzten Moment</li>
+              <li>Technik und Abläufe aus einer Hand</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="section section-split" id="sound">
+        <div class="section-copy reveal">
+          <p class="eyebrow">Warum WeddingVocals</p>
+          <h2>Elegant im ersten Moment, präsent wenn die Stimmung steigt</h2>
+          <p>
+            Gute Hochzeitsmusik ist mehr als eine schöne Stimme. Sie braucht
+            Timing, Gefühl für den Raum und ein Setup, das professionell wirkt,
+            ohne den Tag zu dominieren. Genau darauf ist unser Trio ausgelegt.
+          </p>
+        </div>
+
+        <div class="benefit-grid">
+          <article class="benefit-card reveal delay-1">
+            <span>01</span>
+            <h3>Persönliche Wunschlieder</h3>
+            <p>
+              Für die Schlüsselmomente eures Tages planen wir Songs individuell
+              ein, statt nur Standard-Sets abzuspielen.
             </p>
           </article>
-          <article class="card reveal delay-2">
-            <h3>Apéro</h3>
+          <article class="benefit-card reveal delay-2">
+            <span>02</span>
+            <h3>Unkomplizierte Besetzung</h3>
             <p>
-              Stilvolle Hintergrundmusik mit modernen Love Songs und
-              souligen Klassikern.
+              Drei Musiker:innen reichen für Atmosphäre, Dynamik und Präsenz,
+              ohne eure Location unnötig zu überladen.
             </p>
           </article>
-          <article class="card reveal delay-3">
-            <h3>Abendprogramm</h3>
+          <article class="benefit-card reveal delay-3">
+            <span>03</span>
+            <h3>Professioneller Ablauf</h3>
             <p>
-              Energiegeladene Stimmung für Dinner, Eröffnungstanz und Party.
+              Wir stimmen Technik, Auf- und Abbau sowie musikalische Übergänge
+              mit euch und euren Dienstleister:innen sauber ab.
+            </p>
+          </article>
+          <article class="benefit-card reveal delay-4">
+            <span>04</span>
+            <h3>Modernes Repertoire</h3>
+            <p>
+              Zwischen zeitlosen Balladen, akustischen Lieblingssongs und
+              stilvollen Grooves bleibt die Musik nah an euch.
             </p>
           </article>
         </div>
       </section>
 
-      <section class="section section-alt" id="team">
-        <div class="section-head reveal">
-          <p class="eyebrow">Wir sind 3</p>
-          <h2>Ein Team. Ein Sound. WeddingVocals.</h2>
+      <section class="section section-dark" id="ablauf">
+        <div class="section-heading section-heading-dark reveal">
+          <p class="eyebrow eyebrow-light">Ablauf</p>
+          <h2>So entsteht euer persönliches Live-Set</h2>
+          <p>
+            Klar strukturiert in der Planung, entspannt im Ablauf und musikalisch
+            präzise am Hochzeitstag.
+          </p>
         </div>
-        <div class="team-grid">
-          <article class="team-card reveal delay-1">
-            <h3>Lead Vocals</h3>
-            <p>Klare Stimmen, Gänsehaut-Momente und starke Bühnenpräsenz.</p>
+
+        <div class="process-grid">
+          <article class="process-card reveal delay-1">
+            <strong>01</strong>
+            <h3>Anfrage und Kennenlernen</h3>
+            <p>
+              Ihr schickt uns Datum, Ort und gewünschte Programmpunkte. Danach
+              klären wir Besetzung, Timing und Stimmung eurer Feier.
+            </p>
           </article>
-          <article class="team-card reveal delay-2">
-            <h3>Keys & Backing Vocals</h3>
-            <p>Harmonische Fülle, elegante Arrangements und ein warmer Klang.</p>
+          <article class="process-card reveal delay-2">
+            <strong>02</strong>
+            <h3>Konzept und Songauswahl</h3>
+            <p>
+              Wir definieren gemeinsam die musikalischen Highlights und bauen
+              daraus ein Set, das zu euch, eurer Trauung und euren Gästen passt.
+            </p>
           </article>
-          <article class="team-card reveal delay-3">
-            <h3>Guitar & Rhythm</h3>
-            <p>Dynamik, Groove und moderne Begleitung von intim bis festlich.</p>
+          <article class="process-card reveal delay-3">
+            <strong>03</strong>
+            <h3>Live vor Ort</h3>
+            <p>
+              Am Hochzeitstag kümmern wir uns um einen reibungslosen Aufbau,
+              verlässliche Einsätze und eine stimmige musikalische Dramaturgie.
+            </p>
           </article>
         </div>
       </section>
 
-      <section class="section" id="social">
-        <div class="section-head reveal">
-          <p class="eyebrow">Social Media</p>
-          <h2>Hört uns online, erlebt uns live</h2>
+      <section class="section" id="repertoire">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Repertoire</p>
+          <h2>Zwischen Gänsehaut, Wärme und Groove</h2>
+          <p>
+            Unser Repertoire ist auf Hochzeiten ausgelegt: emotional in der
+            Zeremonie, leicht im Empfang und tragend im Abendprogramm.
+          </p>
+        </div>
+
+        <div class="repertoire-grid">
+          <article class="repertoire-card reveal delay-1">
+            <h3>Musikalische Farben</h3>
+            <div class="tag-list">
+              <span>Modern Love Songs</span>
+              <span>Acoustic Pop</span>
+              <span>Soul Classics</span>
+              <span>Soft Dinner Grooves</span>
+              <span>First Dance Highlights</span>
+              <span>Feel-Good Party Moments</span>
+            </div>
+          </article>
+
+          <article class="repertoire-card reveal delay-2">
+            <h3>Was euch erwartet</h3>
+            <p>
+              Kein beliebiger Event-Sound, sondern ein Set mit dramaturgischem
+              Gespür für die verschiedenen Stimmungen eures Tages.
+            </p>
+          </article>
+
+          <article class="repertoire-card repertoire-card-highlight reveal delay-3">
+            <h3>Eure Wunschlieder gehören dazu</h3>
+            <p>
+              Gerade für Einzug, Auszug und Eröffnungstanz integrieren wir
+              zentrale Songs gezielt in unser Konzept, damit sich die Musik nach
+              euch anfühlt und nicht nach Standardprogramm.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section section-alt" id="social">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Hörproben</p>
+          <h2>Einblick in unseren Sound und unsere Auftritte</h2>
           <p>
             Auf unseren Kanälen findet ihr Reels, Live-Mitschnitte und aktuelle
-            Hochzeitseinblicke.
+            Eindrücke von Hochzeiten und Events.
           </p>
         </div>
+
         <div class="social-grid">
-          <a class="social-card reveal delay-1" href="https://instagram.com/weddingvocals" target="_blank" rel="noreferrer">
-            <span>Instagram</span>
-            <small>@weddingvocals</small>
+          <a
+            class="social-card reveal delay-1"
+            href="https://instagram.com/weddingvocals"
+            target="_blank"
+            rel="noreferrer"
+            aria-label="Instagram von WeddingVocals öffnen"
+          >
+            <strong>Instagram</strong>
+            <p>Kurze Live-Momente, Behind the Scenes und aktuelle Hochzeitseinblicke.</p>
+            <span>@weddingvocals</span>
           </a>
-          <a class="social-card reveal delay-2" href="https://tiktok.com/@weddingvocals" target="_blank" rel="noreferrer">
-            <span>TikTok</span>
-            <small>@weddingvocals</small>
+          <a
+            class="social-card reveal delay-2"
+            href="https://tiktok.com/@weddingvocals"
+            target="_blank"
+            rel="noreferrer"
+            aria-label="TikTok von WeddingVocals öffnen"
+          >
+            <strong>TikTok</strong>
+            <p>Mehr Dynamik, mehr Stimmung und schnelle Einblicke in unseren Auftrittsalltag.</p>
+            <span>@weddingvocals</span>
           </a>
-          <a class="social-card reveal delay-3" href="https://youtube.com/@weddingvocals" target="_blank" rel="noreferrer">
-            <span>YouTube</span>
-            <small>WeddingVocals Live</small>
+          <a
+            class="social-card reveal delay-3"
+            href="https://youtube.com/@weddingvocals"
+            target="_blank"
+            rel="noreferrer"
+            aria-label="YouTube von WeddingVocals öffnen"
+          >
+            <strong>YouTube</strong>
+            <p>Längere Live-Ausschnitte, Performance-Videos und musikalische Referenzen.</p>
+            <span>WeddingVocals Live</span>
           </a>
         </div>
       </section>
 
-      <section class="section section-alt cta" id="kontakt">
-        <div class="section-head reveal">
-          <p class="eyebrow">Booking</p>
-          <h2>Datum sichern</h2>
-          <p>
-            Schreibt uns mit Datum, Ort und gewünschtem Paket. Wir melden uns
-            schnell bei euch zurück.
-          </p>
-        </div>
-        <div class="cta-actions reveal delay-1">
-          <a class="btn btn-primary" href="mailto:booking@weddingvocals.com">booking@weddingvocals.com</a>
-          <a class="btn btn-secondary" href="https://wa.me/41000000000" target="_blank" rel="noreferrer">WhatsApp Anfrage</a>
+      <section class="section section-contact" id="kontakt">
+        <div class="contact-grid">
+          <div class="contact-copy reveal">
+            <p class="eyebrow">Kontakt</p>
+            <h2>Fragt euren Termin unverbindlich an</h2>
+            <p>
+              Schreibt uns mit Datum, Ort, geplanter Gästezahl und den
+              Programmpunkten, für die ihr Live-Musik wünscht. Wir melden uns
+              mit einer passenden Empfehlung zurück.
+            </p>
+            <ul class="contact-list">
+              <li>Datum und Location eurer Hochzeit</li>
+              <li>Trauung, Apéro, Dinner, Party oder Tagesbegleitung</li>
+              <li>Besondere Wunschlieder oder ein musikalischer Stil</li>
+            </ul>
+          </div>
+
+          <aside class="contact-panel reveal delay-2">
+            <p class="contact-label">Direktkontakt</p>
+            <a class="contact-link" href="mailto:booking@weddingvocals.com">
+              booking@weddingvocals.com
+            </a>
+            <p>
+              Oder schreibt uns eine kurze Nachricht über Instagram, wenn ihr
+              zuerst einen unkomplizierten Eindruck möchtet.
+            </p>
+            <div class="contact-actions">
+              <a class="btn btn-primary" href="mailto:booking@weddingvocals.com">
+                E-Mail senden
+              </a>
+              <a
+                class="btn btn-secondary btn-secondary-light"
+                href="https://instagram.com/weddingvocals"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Instagram öffnen
+              </a>
+            </div>
+          </aside>
         </div>
       </section>
     </main>
 
     <footer class="footer">
-      <p>© <span id="year"></span> WeddingVocals. All rights reserved.</p>
+      <p>© <span id="year"></span> WeddingVocals. Live Musik für Hochzeiten.</p>
     </footer>
 
     <script>
