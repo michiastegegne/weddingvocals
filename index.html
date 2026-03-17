@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="WeddingVocals - Live Wedding Band für Trauung, Apéro und Abendprogramm."
+    />
+    <title>WeddingVocals | Wedding Band</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <nav class="nav reveal">
+        <a class="brand" href="#top">WeddingVocals</a>
+        <div class="nav-links">
+          <a href="#leistungen">Leistungen</a>
+          <a href="#team">Team</a>
+          <a href="#social">Social Media</a>
+          <a href="#kontakt">Kontakt</a>
+        </div>
+      </nav>
+
+      <div class="hero-content">
+        <p class="eyebrow reveal delay-1">Live Music for Weddings</p>
+        <h1 class="reveal delay-2">Eure Love Story verdient den perfekten Sound.</h1>
+        <p class="hero-text reveal delay-3">
+          Wir sind <strong>WeddingVocals</strong>: ein eingespieltes Team aus 3
+          Musiker:innen für Trauung, Apéro und Abendprogramm.
+        </p>
+        <div class="hero-actions reveal delay-4">
+          <a class="btn btn-primary" href="#kontakt">Unverbindlich anfragen</a>
+          <a class="btn btn-secondary" href="#social">Socials ansehen</a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="section" id="leistungen">
+        <div class="section-head reveal">
+          <p class="eyebrow">Unsere Dienstleistung</p>
+          <h2>Musik, die euren Hochzeitstag trägt</h2>
+        </div>
+        <div class="cards">
+          <article class="card reveal delay-1">
+            <h3>Trauung</h3>
+            <p>
+              Emotionale Live-Begleitung für Einzug, Ringtausch und Auszug mit
+              Songs eurer Wahl.
+            </p>
+          </article>
+          <article class="card reveal delay-2">
+            <h3>Apéro</h3>
+            <p>
+              Stilvolle Hintergrundmusik mit modernen Love Songs und
+              souligen Klassikern.
+            </p>
+          </article>
+          <article class="card reveal delay-3">
+            <h3>Abendprogramm</h3>
+            <p>
+              Energiegeladene Stimmung für Dinner, Eröffnungstanz und Party.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section section-alt" id="team">
+        <div class="section-head reveal">
+          <p class="eyebrow">Wir sind 3</p>
+          <h2>Ein Team. Ein Sound. WeddingVocals.</h2>
+        </div>
+        <div class="team-grid">
+          <article class="team-card reveal delay-1">
+            <h3>Lead Vocals</h3>
+            <p>Klare Stimmen, Gänsehaut-Momente und starke Bühnenpräsenz.</p>
+          </article>
+          <article class="team-card reveal delay-2">
+            <h3>Keys & Backing Vocals</h3>
+            <p>Harmonische Fülle, elegante Arrangements und ein warmer Klang.</p>
+          </article>
+          <article class="team-card reveal delay-3">
+            <h3>Guitar & Rhythm</h3>
+            <p>Dynamik, Groove und moderne Begleitung von intim bis festlich.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="social">
+        <div class="section-head reveal">
+          <p class="eyebrow">Social Media</p>
+          <h2>Hört uns online, erlebt uns live</h2>
+          <p>
+            Auf unseren Kanälen findet ihr Reels, Live-Mitschnitte und aktuelle
+            Hochzeitseinblicke.
+          </p>
+        </div>
+        <div class="social-grid">
+          <a class="social-card reveal delay-1" href="https://instagram.com/weddingvocals" target="_blank" rel="noreferrer">
+            <span>Instagram</span>
+            <small>@weddingvocals</small>
+          </a>
+          <a class="social-card reveal delay-2" href="https://tiktok.com/@weddingvocals" target="_blank" rel="noreferrer">
+            <span>TikTok</span>
+            <small>@weddingvocals</small>
+          </a>
+          <a class="social-card reveal delay-3" href="https://youtube.com/@weddingvocals" target="_blank" rel="noreferrer">
+            <span>YouTube</span>
+            <small>WeddingVocals Live</small>
+          </a>
+        </div>
+      </section>
+
+      <section class="section section-alt cta" id="kontakt">
+        <div class="section-head reveal">
+          <p class="eyebrow">Booking</p>
+          <h2>Datum sichern</h2>
+          <p>
+            Schreibt uns mit Datum, Ort und gewünschtem Paket. Wir melden uns
+            schnell bei euch zurück.
+          </p>
+        </div>
+        <div class="cta-actions reveal delay-1">
+          <a class="btn btn-primary" href="mailto:booking@weddingvocals.com">booking@weddingvocals.com</a>
+          <a class="btn btn-secondary" href="https://wa.me/41000000000" target="_blank" rel="noreferrer">WhatsApp Anfrage</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>© <span id="year"></span> WeddingVocals. All rights reserved.</p>
+    </footer>
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
