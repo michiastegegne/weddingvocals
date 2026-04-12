@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Ebene_2" data-name="Ebene 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 523.48 83.09">
+  <defs>
+    <style>
+      .cls-1 {
+        font-family: DMSans-SemiBold, 'DM Sans';
+        font-size: 72px;
+        font-weight: 600;
+      }
+
+      .cls-2 {
+        letter-spacing: 0em;
+      }
+
+      .cls-3 {
+        font-family: DMSerifDisplay-Italic, 'DM Serif Display';
+        font-size: 75px;
+        font-style: italic;
+      }
+
+      .cls-4 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-5 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-6 {
+        letter-spacing: 0em;
+      }
+
+      .cls-7 {
+        letter-spacing: 0em;
+      }
+
+      .cls-8 {
+        letter-spacing: 0em;
+      }
+
+      .cls-9 {
+        letter-spacing: .01em;
+      }
+    </style>
+  </defs>
+  <g id="Ebene_1-2" data-name="Ebene 1">
+    <text class="cls-1" transform="translate(0 61.2)"><tspan class="cls-4" x="0" y="0">w</tspan><tspan class="cls-2" x="56.52" y="0">edding</tspan></text>
+    <text class="cls-3" transform="translate(296.87 63.44)"><tspan class="cls-6" x="0" y="0">v</tspan><tspan x="37.8" y="0">o</tspan><tspan class="cls-5" x="77.02" y="0">c</tspan><tspan class="cls-7" x="109.8" y="0">a</tspan><tspan class="cls-8" x="151.5" y="0">l</tspan><tspan class="cls-9" x="171.97" y="0">s</tspan><tspan x="203.32" y="0">.</tspan></text>
+  </g>
+</svg>
